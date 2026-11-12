@@ -1,0 +1,36 @@
+.pools {
+
+}
+
+.pool {
+	border: 1px solid var(--mid);
+	border-radius: 8px;
+	display: inline-block;
+	margin: 16px;
+	padding: 24px;
+	width: 280px;
+	background: rgba(50,50,50,0.7);
+	text-align: center;
+}
+
+.pool__image,
+.pool__image img {
+	height: 48px;
+}
+.pool__image {
+	width: 48px;
+	border-radius: 48px;
+	overflow: hidden;
+	margin: 0 auto 12px;
+}
+
+.pool__name {
+	font-size: 20px;
+}
+
+.pm {
+	padding: 64px;
+}
+.pool__info p {
+	border-bottom: 1px dashed var(--mid);
+}

@@ -1,0 +1,120 @@
+.locker {
+	border: 1px solid white;
+	border-radius: 4px;
+	padding: 16px;
+	background: rgba(0,0,0,0.6);
+}
+
+
+.locker-text {
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+	padding-right: 8px;
+	box-sizing: border-box;
+}
+.locker-locker {
+	width: 50%;
+	display: inline-block;
+}
+
+.locker-icon {
+	width: 40%;
+	display: inline-block;
+	padding: 16px;
+
+	box-sizing: border-box;
+}
+.locker-input {
+	width:60%;
+	display: inline-block;
+	padding: 16px;
+	box-sizing: border-box;
+}
+.locker {
+	margin-bottom: 16px;
+	button {
+		width: 100%;
+	}
+}
+
+.hubble-icon {
+	display: inline-block;
+	border-radius: 28px;
+	width: 56px;
+	height: 56px;
+	filter: drop-shadow(0 0 2px var(--mid));
+	overflow: hidden;
+	margin-right: 16px;
+	img {
+		width: 56px;
+	}
+}
+
+.icon-text {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width:50%;
+	.small {
+		font-size: 12px;
+	}
+	.large {
+		font-size: 26px;
+		margin-top: 4px;
+	}
+}
+
+.locker-input {
+	position: relative;
+	vertical-align: top;
+	height: 88px;
+	input {
+		position: absolute;
+		left: 0;
+		height: 56px;
+		width: 100%;
+		border: none;
+		box-sizing: border-box;
+		color: black;
+		text-align: right;
+		padding-right: 8px;
+	}	
+	span {
+		position: absolute;
+		color: black;
+		bottom: 18px;
+		display: inline-block;
+		font-size: 10px;
+		right: 8px;
+
+	}
+}
+
+.locker-input button {
+	position: absolute;
+	color: black;
+	top: 8px;
+	display: inline-block;
+	font-size: 10px;
+	right: 8px;
+	border: 1px solid black;
+	border-radius: 2px;
+	width: initial;
+	padding: 2px;
+	height: initial;
+	line-height: 10px;
+
+}
+
+@media(orientation: portrait), (orientation: landscape) AND (max-width: 800px) {
+	.locker-text, .locker-locker {
+		width: 100%;
+	}
+}
+
+@media(orientation: portrait) AND (max-width: 600px), (orientation: landscape) AND (max-width: 800px) {
+	.locker-icon, .locker-input {
+		width: 100%;
+	}
+}

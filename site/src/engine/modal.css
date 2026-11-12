@@ -1,0 +1,63 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99;
+}
+.modal--pool-0.active-pool--0,
+.modal--pool-1.active-pool--1,
+.modal--pool-2.active-pool--2,
+.modal--pool-3.active-pool--3,
+.modal--pool-4.active-pool--4,
+.modal--pool-5.active-pool--5,
+.modal--pool-6.active-pool--6,
+.modal--pool-7.active-pool--7,
+.modal--pool-8.active-pool--8,
+.modal--pool-9.active-pool--9,
+.modal--pool-10.active-pool--10,
+.modal--pool-11.active-pool--11,
+.modal--pool-12.active-pool--12,
+.modal--pool-13.active-pool--13,
+.modal--pool-14.active-pool--14,
+.modal--pool-15.active-pool--15,
+.modal--pool-16.active-pool--16,
+.modal--pool-17.active-pool--17,
+.modal--pool-18.active-pool--18,
+.modal--pool-19.active-pool--19,
+.modal--pool-20.active-pool--20,
+.modal--pool-21.active-pool--21,
+.modal--pool-22.active-pool--22,
+.modal--pool-23.active-pool--23 {
+  display: block;
+}
+
+.close-button {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  img {
+    height: 48px;
+    width: 48px;
+  }
+  cursor: pointer;
+  
+}
+
+.modal-info {
+  text-align: left;
+  p {
+    margin: 2px 0;
+  }
+  margin: 16px 0;
+}
+
+
+@media (orientation: portrait), (orientation: landscape) AND (max-width: 800px) {
+  .modal {
+    overflow-y: scroll;
+  }
+}

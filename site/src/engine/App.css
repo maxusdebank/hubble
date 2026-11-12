@@ -1,0 +1,398 @@
+h1, h2, h3, h4, h5 {
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App {
+  text-align: left;
+  width: 100%;
+  color: white;
+
+  font-family: "Source Code Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+--light: #5C2F87;
+--mid: #f4e435;
+--dark: #140126;
+}
+
+
+
+.lander {
+  width: 100%;
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.bg {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.bg--color, body {
+  background: black;
+}
+
+
+
+.inliner {
+  display: inline-block;
+}
+
+a {
+  color: var(--mid);
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 2px solid var(--mid);
+}
+a:hover {
+  color: var(--mid);
+}
+
+
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.balances {
+
+  display: inline-block;
+  background: var(--dark);
+  padding: 16px;
+}
+
+strong {
+  color: var(--mid);
+}
+
+
+input {
+  background: var(--mid);
+  color: black;
+  font-family: "Source Code Pro", serif;
+  border: none;
+  outline: none;
+  width: 128px;
+  text-align: center;
+  font-size: 16px;
+}
+input::focus {
+  outline: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+button + button {
+  margin-left: 8px;
+}
+
+.wl {
+  text-align: left;
+  input, button {
+    width: 100%;
+
+  }
+  input {
+    border: none;
+    box-sizing: border-box;
+    line-height: 24px;
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+
+.the-back, .cover {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.cover {
+  background: rgba(0,0,0,0.8);
+}
+.the-back {
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.pending button {
+      background: var(--mid);
+    color: black;
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+    border: 1px solid var(--dark);
+    border-radius: 4px;
+    line-height: 36px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.data-tile {
+  border: 1px solid var(--mid);
+  border-radius: 8px;
+  display: inline-block;
+  margin: 16px;
+  padding: 24px;
+  width: 280px;
+  background: rgba(50,50,50,0.7);
+  text-align: center;
+  height: 144px;
+  vertical-align: top;
+}
+
+.data-tile p {
+  margin: 0;
+  text-align: center;
+}
+.data-tile h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+p.data-focus {
+  font-size: 24px;
+  color: var(--mid);
+  font-weight: 600;
+  font-family: "Audiowide", serif;
+}
+
+.step-5 .data-tile p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Balance Check Section */
+.step.step-8 {
+  background: rgba(20, 1, 38, 0.9); /* var(--dark) with opacity */
+  border: 2px solid var(--mid);
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.step.step-8 .step-title {
+  font-family: "Audiowide", serif;
+  font-size: 32px;
+  color: var(--mid);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.step.step-8 .step-title img {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.balance-check-interface {
+  color: white;
+}
+
+.balance-check-interface .refresh-button {
+  background: var(--mid);
+  color: black;
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 2px solid var(--dark);
+  border-radius: 4px;
+  line-height: 36px;
+  padding: 0 24px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease;
+}
+
+.balance-check-interface .refresh-button:hover:not(:disabled) {
+  background: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(244, 228, 53, 0.3);
+}
+
+.balance-check-interface .refresh-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.balance-info-section {
+  background: rgba(92, 47, 135, 0.2); /* var(--light) with opacity */
+  border: 1px solid var(--mid);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.balance-info-section h3 {
+  font-family: "Audiowide", serif;
+  color: var(--mid);
+  margin: 20px 0 16px 0;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 2px solid var(--mid);
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.balance-info-section h3:first-child {
+  margin-top: 0;
+}
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  border: 1px solid rgba(244, 228, 53, 0.2);
+  font-family: "Source Code Pro", serif;
+}
+
+.info-row span:first-child {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.info-row span:last-child {
+  color: var(--mid);
+  font-weight: 600;
+  font-family: "Source Code Pro", serif;
+  font-size: 18px;
+  text-align: right;
+  font-family: "Audiowide", serif;
+}
+
+.addresses-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid var(--mid);
+}
+
+.addresses-section h3 {
+  margin-top: 0;
+}
+
+.address-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(244, 228, 53, 0.1);
+  font-family: "Source Code Pro", serif;
+  font-size: 14px;
+}
+
+.address-row:last-child {
+  border-bottom: none;
+}
+
+.address-row span {
+  color: #aaa;
+  font-weight: 400;
+  min-width: 180px;
+  font-size: 14px;
+}
+
+.address-row code {
+  color: var(--mid);
+  font-family: "Source Code Pro", monospace;
+  font-size: 12px;
+  background: rgba(244, 228, 53, 0.1);
+  padding: 6px 10px;
+  border-radius: 4px;
+  word-break: break-all;
+  border: 1px solid rgba(244, 228, 53, 0.2);
+  flex: 1;
+  margin-left: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .step.step-8 {
+    padding: 16px;
+  }
+  
+  .info-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  
+  .info-row span:last-child {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .address-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  
+  .address-row span {
+    min-width: unset;
+  }
+  
+  .address-row code {
+    margin-left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .step.step-8 .step-title {
+    font-size: 24px;
+  }
+  
+  .step.step-8 .step-title img {
+    height: 36px;
+  }
+  
+  .balance-check-interface .refresh-button {
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 32px;
+  }
+}

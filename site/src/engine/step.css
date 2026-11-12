@@ -1,0 +1,98 @@
+.step {
+	display: none;
+
+	margin: 0 auto;
+
+}	
+
+.step-1.step--1,
+.step-2.step--2,
+.step-3.step--3,
+.step-4.step--4,
+.step-5.step--5,
+.step-6.step--6,
+.step-7.step--7,
+.step-8.step--8
+ {
+	display: block;
+}
+
+.progress {
+	width: 100%;
+	padding: 16px 0;
+	margin-top: 24px;
+}
+.dot {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background: #aaa;
+	border-radius: 16px;
+	margin: 0 16px;
+	cursor: pointer;
+}
+
+.progress--1 .dot-1, 
+.progress--2 .dot-2, 
+.progress--3 .dot-3, 
+.progress--4 .dot-4, 
+.progress--5 .dot-5, 
+.progress--6 .dot-6  
+{
+	background: white;
+}
+
+.step-title {
+	text-align: left;
+	padding-top: 16px;
+	font-size: 36px;
+	line-height: 64px;
+	height: 64px;
+	margin-bottom: 32px;
+	img {
+		height: 64px;
+		margin-right: 16px;
+	}
+	span {
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+.line {
+	background: white;
+	height: 1px;
+	width: 100%;
+	margin-top: 8px;
+}
+
+.vest {
+	border: 1px solid white;
+	border-radius: 12px;
+	padding: 16px;
+	margin: 0 auto;
+	width: 420px;
+	box-sizing: border-box;
+}
+@media (orientation: portrait), (orientation: landscape) AND (max-width: 800px) { 
+	.step {
+		width: 100%;
+	}
+
+	.step-title {
+		height: initial;
+		img {
+			display: block;
+		}
+		span {
+			display: block;
+		}
+	}
+	.vest {
+		width: 100%;
+	}
+}
+
+.step-5 p {
+	text-align: left;
+}

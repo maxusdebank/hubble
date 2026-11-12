@@ -1,0 +1,72 @@
+:root{
+--light: #5C2F87;
+--mid: #fef260;
+--dark: #140126;
+}
+.connect-button {
+  position: fixed;
+  right: 32px;
+  top: 32px;
+}
+.wallet {
+  position: fixed;
+  top: 88px;
+  right: -1px;
+  background: black;
+  padding: 8px 16px 4px;
+  border-radius: 32px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.wallet {
+  border: 1px solid var(--mid);
+  box-sizing: border-box;
+    
+}
+.wallet--2 {
+  top: 138px;
+}
+.wallet span {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 22px;
+}
+.wallet .divider {
+  margin: 0 4px;
+}
+.connect-button button {
+  font-size: 24px!important;
+}
+
+.App--true .connect-button button {
+  font-size: 18px!important;
+  color: black!important;
+  div {
+    color: black!important;
+  }
+  div + div {
+    border-color: var(--mid)!important;
+  }
+}
+
+.connect-button button {
+  background: var(--mid)!important;
+  border-width: 1px!important;
+  border-style: solid!important;
+  border-color: var(--dark)!important;
+  text-transform: uppercase!important;
+  color: black!important;
+  filter: drop-shadow(0 0 4px var(--light));
+}
+
+
+@media (orientation: portrait), (orientation: landscape) AND (max-width: 800px) {
+  .connect-button {
+    top: 16px;
+    right: 16px;
+  }
+  .wallet {
+    top: 56px;
+  }
+}

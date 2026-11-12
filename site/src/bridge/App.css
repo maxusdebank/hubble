@@ -1,0 +1,171 @@
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .app-header h1 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .app-header p {
+    margin: 0 0 20px 0;
+    color: #666;
+  }
+  
+  .connect-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .connect-btn:hover {
+    background: #45a049;
+  }
+  
+  .wallet-info {
+    text-align: left;
+  }
+  
+  .balances {
+    margin-top: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  .balances p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .tab-container {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tab-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab-btn.active {
+    border-bottom: 2px solid #4CAF50;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .tab-btn:hover {
+    background: #f5f5f5;
+  }
+  
+  .form-container {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .form-container h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .action-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .approve-btn {
+    background: #ff9800;
+    color: white;
+  }
+  
+  .approve-btn:hover:not(:disabled) {
+    background: #f57c00;
+  }
+  
+  .deposit-btn {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .deposit-btn:hover:not(:disabled) {
+    background: #45a049;
+  }
+  
+  .withdraw-btn {
+    background: #2196F3;
+    color: white;
+  }
+  
+  .withdraw-btn:hover:not(:disabled) {
+    background: #1976D2;
+  }
+  
+  @media (max-width: 768px) {
+    .App {
+      padding: 10px;
+    }
+    
+    .button-group {
+      flex-direction: column;
+    }
+  }

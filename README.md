@@ -29,6 +29,12 @@ The protocol includes:
 
 This repository is being assembled incrementally. Contracts, interfaces, documentation, deployment records, and supporting applications will be published here as they are reviewed and prepared for public release.
 
+## Source code
+
+- [`site/`](./site/) — latest Hubble web application source and local-development instructions
+- [`contracts/`](./contracts/) — verified Solidity source for Sonic deployments
+- [`deployments/sonic.json`](./deployments/sonic.json) — canonical machine-readable deployment manifest
+
 ## Network
 
 | Network | Chain ID |

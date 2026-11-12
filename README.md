@@ -55,6 +55,17 @@ This repository is being assembled incrementally. Contracts, interfaces, documen
 | HUBBLE/USDC | [`0x9ff1b68f8bedF4665fE358F92C3E9aF386cb295f`](https://sonicscan.org/address/0x9ff1b68f8bedF4665fE358F92C3E9aF386cb295f) |
 | EX/stS | [`0x37be2fF30Efde8c05E8E4A59486Db82AEBC5d892`](https://sonicscan.org/address/0x37be2fF30Efde8c05E8E4A59486Db82AEBC5d892) |
 
+## Brand assets
+
+| Asset | File |
+|---|---|
+| Hubble logo | [`assets/hubble-logo.png`](./assets/hubble-logo.png) |
+| xHUBBLE icon | [`assets/tokens/xhubble.png`](./assets/tokens/xhubble.png) |
+| EX icon | [`assets/tokens/ex.png`](./assets/tokens/ex.png) |
+| xEX icon | [`assets/tokens/xex.png`](./assets/tokens/xex.png) |
+| Site background | [`assets/backgrounds/site-background.gif`](./assets/backgrounds/site-background.gif) |
+| Engine Room planet | [`assets/illustrations/planet.png`](./assets/illustrations/planet.png) |
+
 ## Repository status
 
 This public repository is under active construction. Inclusion here should not be interpreted as an audit or security endorsement.

@@ -1,0 +1,101 @@
+{
+  "chain": "sonic",
+  "chainId": 146,
+  "explorer": "https://sonicscan.org",
+  "contracts": {
+    "HUBBLE": {
+      "address": "0xd441a37aA73fc1DDd2db99FC4c92f233b7d41CBd",
+      "contractName": "HubbleShares",
+      "source": "contracts/sonic/HUBBLE/HubbleShares.sol"
+    },
+    "xHUBBLE": {
+      "address": "0x14D1Db2367312Ee3BBA54905b64f3bf0f0D677A8",
+      "contractName": "LockedHubble",
+      "source": "contracts/sonic/xHUBBLE/LockedHubble.sol"
+    },
+    "whitelist": {
+      "address": "0xf40B50b8d3467240D09080f993ED1644C41C7D2B",
+      "contractName": "GenesisWhitelist",
+      "source": "contracts/sonic/Whitelist/GenesisWhitelist.sol"
+    },
+    "missionControlV1": {
+      "address": "0x4123a6174270D6a3ffEbd252ac3Ff43e5C26D757",
+      "contractName": "MissionControl",
+      "source": "contracts/sonic/MissionControlV1/MissionControl.sol"
+    },
+    "votingModule": {
+      "address": "0xf9Ad65801f4E5257cc3e098d3C61f3AfE228E4a2",
+      "contractName": "VotingModule",
+      "source": "contracts/sonic/VotingModule/VotingModule.sol"
+    },
+    "rewardModule": {
+      "address": "0xE6f3AcBd7d6F1791F5FB54A19E8a8C0a984BbAEE",
+      "contractName": "RewardModule",
+      "source": "contracts/sonic/RewardModule/RewardModule.sol"
+    },
+    "genesis": {
+      "address": "0x094606ca700e68e18f6A8Eee2ea4419c662Fd0c7",
+      "contractName": "GenesisPool",
+      "source": "contracts/sonic/Genesis/GenesisPool.sol"
+    },
+    "exMintLegacy": {
+      "address": "0x808D5663680C65eaC27a94fEb4ad33719f56ec05",
+      "contractName": "ExInitialMintingGame",
+      "source": "contracts/sonic/EXMintLegacy/ExInitialMintingGame.sol"
+    },
+    "EX": {
+      "address": "0xd4d197F3397C8F28f4BC2C698104CfbCC3e04802",
+      "contractName": "ExToken",
+      "source": "contracts/sonic/EX/ExToken.sol"
+    },
+    "xEX": {
+      "address": "0x13a67513c56c9E90D09d4163d233DaD819c2FC87",
+      "contractName": "LockedEx",
+      "source": "contracts/sonic/xEX/LockedEx.sol"
+    },
+    "ex121": {
+      "address": "0x6fD8c51ecd8E65F89F647c93fa7B1c37120c234C",
+      "contractName": null,
+      "source": null,
+      "sourceStatus": "missing"
+    },
+    "missionControlV2": {
+      "address": "0xd268e36Ea3c1948284D40855cc2C26A71Ad07095",
+      "contractName": "MissionControlv3",
+      "source": "contracts/sonic/MissionControlV2/src/MissionControlV3.sol"
+    },
+    "exOracle": {
+      "address": "0x4b027fa9d8e0e0863447498150278fc8aa888a83",
+      "contractName": "ExOracleV2",
+      "source": "contracts/sonic/EXOracle/ExOracleV2.sol"
+    },
+    "alphaEpochs": {
+      "address": "0xacFe02A1Ad557Af0818963eDf48BfccE34f27a62",
+      "contractName": "HubbleAlphaEpochs",
+      "source": "contracts/sonic/AlphaEpochs/contracts/epochs.sol"
+    },
+    "redeemer": {
+      "address": "0x3C3cC567b7c8f98e7BD244E575FdE61016ef66B5",
+      "contractName": "Redeemer",
+      "source": "contracts/sonic/Redeemer/Redeemer.sol"
+    },
+    "minter": {
+      "address": "0x82B18a8f57E7791d6DAE4FfCfDbeCf404CEDC698",
+      "contractName": null,
+      "source": null,
+      "sourceStatus": "missing"
+    },
+    "redemptionPool": {
+      "address": "0x2dDd8A28f3619E67C149A91CD0Dc96bB788757dA",
+      "contractName": "ExRedemptionPool",
+      "source": "contracts/sonic/RedemptionPool/ExRedemptionPool.sol"
+    }
+  },
+  "externalDependencies": {
+    "stS": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+    "USDC": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+    "HUBBLE_USDC_LP": "0x9ff1b68f8bedF4665fE358F92C3E9aF386cb295f",
+    "EX_stS_LP": "0x37be2fF30Efde8c05E8E4A59486Db82AEBC5d892",
+    "EX_stS_CL": "0xc2f202cca8c4ad1a7e1aa8481667b93278d8f89b"
+  }
+}

@@ -48,6 +48,8 @@ This repository is being assembled incrementally. Contracts, interfaces, documen
 | EX Oracle | [`0x4b027fa9d8e0e0863447498150278fc8aa888a83`](https://sonicscan.org/address/0x4b027fa9d8e0e0863447498150278fc8aa888a83) |
 | Alpha Epochs | [`0xacFe02A1Ad557Af0818963eDf48BfccE34f27a62`](https://sonicscan.org/address/0xacFe02A1Ad557Af0818963eDf48BfccE34f27a62) |
 
+Verified deployed source is collected under [`contracts/sonic`](./contracts/sonic), with provenance and known gaps documented in the [`contracts` guide](./contracts/README.md). Machine-readable Sonic addresses are available in [`deployments/sonic.json`](./deployments/sonic.json).
+
 ## Liquidity contracts
 
 | Market | Address |

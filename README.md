@@ -66,6 +66,8 @@ This repository is being assembled incrementally. Contracts, interfaces, documen
 | Site background | [`assets/backgrounds/site-background.gif`](./assets/backgrounds/site-background.gif) |
 | Engine Room planet | [`assets/illustrations/planet.png`](./assets/illustrations/planet.png) |
 
+Color values and usage guidance are documented in the [`BRAND.md`](./BRAND.md) brand guide. Reusable CSS custom properties are available in [`assets/brand/hubble-colors.css`](./assets/brand/hubble-colors.css).
+
 ## Repository status
 
 This public repository is under active construction. Inclusion here should not be interpreted as an audit or security endorsement.
